@@ -23,7 +23,7 @@ You'll be prompted to choose a tile to play by inputting its values, e.g., "1|2"
 If you cannot play a tile, you can choose to draw from the pile by typing "draw".
 If the pile is empty and you cannot play a tile, you can pass your turn by typing "pass".
 The game continues until one player plays all their tiles or both players consecutively pass their turns, and the pile is empty.
-##Notes:
+## Notes:
 The machine uses the Minimax algorithm with alpha-beta pruning to decide its move. This ensures the machine plays optimally given the depth provided to the algorithm.
 The game takes into account who won the last match and allows that player to start the next match. In case of a tie, the player with the highest tile starts.
 The game has a 60-second time limit for both the human player and the machine to make a move.
